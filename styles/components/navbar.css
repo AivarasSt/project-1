@@ -1,0 +1,22 @@
+.navbar-toggler-icon-custom {
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    z-index: 5;
+    display: inline-block;
+}
+.navbar-toggler {
+    border: none;
+}
+
+.navbar {
+    min-height: var(--navbar-height);
+}
+
+.navbar-anchor-fix {
+    padding-top: var(--navbar-height);
+}
+
+.z-index-nav {
+    z-index: 100;
+}
