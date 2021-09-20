@@ -1,0 +1,21 @@
+.hero {
+    position: relative;
+    height: calc(100vh - var(--navbar-height));
+    padding-top: var(--navbar-height);
+}
+  
+.hero__cover-img {
+    position: absolute;
+    height: calc(100vh - (2 * var(--navbar-height)));
+    width: 100%;
+    background-image: url("../../images/image-1.jpg");
+    background-position: center;
+    background-size: cover;
+    opacity: 0.3;
+    
+}
+  
+.hero__content {
+    height: calc(100vh - (2 * var(--navbar-height)));
+    position: relative;
+}
