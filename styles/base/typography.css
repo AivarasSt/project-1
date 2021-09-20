@@ -1,0 +1,9 @@
+body {
+    font-family: var(--main-font);
+}
+
+.quote {
+    font-family: var(--secondary-font);
+    font-size: 32px;
+    font-style: italic;
+}
